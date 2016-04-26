@@ -5,7 +5,7 @@ require 'wwpass-ruby-sdk/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'wwpass-ruby-sdk'
-  spec.version       = '0.1.0'
+  spec.version       = '0.1.1'
   spec.authors       = ['Stanislav Panyushkin']
   spec.email         = ['opensource@wwpass.com']
   spec.license       = 'Apache-2.0'

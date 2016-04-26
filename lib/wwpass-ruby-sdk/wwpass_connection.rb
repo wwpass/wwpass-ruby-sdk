@@ -2,7 +2,6 @@ require 'restclient'
 require 'openssl'
 require 'json'
 require 'base64'
-require File.dirname(__FILE__) + '/wwpass_exception'
 
 class WWPassConnection
   def initialize(cert_file, key_file, cafile, timeout = 10, spfe_addr = 'https://spfe.wwpass.com')
